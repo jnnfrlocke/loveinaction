@@ -1,0 +1,15 @@
+h1 {
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+}
+
+.half-width {
+    width: 50%;
+}
+
+nav {
+    display: inline;
+}
