@@ -24,6 +24,10 @@ li {
     display: inline-block;
 }
 
+h4 {
+    text-align: center;
+}
+
 #basic {
     text-align: center;
 }
@@ -40,4 +44,6 @@ li {
 
 p {
     font-size: 22px;
+    width: 80%;
+    margin: 0 10% 0 10%;
 }
