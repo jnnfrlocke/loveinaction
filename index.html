@@ -23,9 +23,6 @@
         <![endif]-->
 
     <header>
-        <h1><a href="index.html">Love in Action</a></h1>
-        <h2>Nurturing our Children</h2>
-        <!--TODO:fix nav for mobile-->
         <nav>
             <ul class="nav">
                 <li><a href="mailto:info@loveinaction.io">Contact Us</a></li>
@@ -33,62 +30,77 @@
                 <li><a href="about.html">About Us</a></li>
             </ul>
         </nav>
+        <!-- <h1><a href="index.html">Love in Action</a></h1> -->
+        <!-- <h2>Nurturing our Children</h2> -->
+        <!--TODO:fix nav for mobile-->
+
+        <img src="img/loveinaction.jpg" id="logo">
+        <h2>Nurturing our Children</h2>
+
     </header>
 
-
     <!--TODO:make gofundme link and make it the main link, move pp link to less prominent spot-->
-
-    <img src="img/loveinaction.jpg" id="logo">
-
 
 
 
     <section id=content>
         <div class="container">
             <div class="row">
-                <div class="half-width">
+                <div class="col-sm">
                     <h2>Current Projects</h2>
-                    <ul>
-                        <li><a href="currentprojects.html#lunch">School Lunch Program</a></li>
-                    </ul>
-                    <h3>Interested in Helping?</h3>
-                    <ul>
-                        <!-- <li>Link to Merch</li> -->
-                        <!--TODO: add gofundme link <li>Donate Button (paypal? square? stripe?)</li>-->
-                        <section id="basic">
-                            <p></p>
-                            <!-- Paypal Button -->
-                            <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
-                                <input type="hidden" name="cmd" value="_s-xclick">
-                                <input type="hidden" name="hosted_button_id" value="Z84JHLFBBRPA4">
-                                <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
-                                <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
-                            </form>
-                        </section>
-                        <!--End Paypal Button-->
-                    </ul>
+
+                    <p><a href="currentprojects.html#lunch">School Lunch Program</a></p>
+
+                    <p>Interested in Helping?</p>
+
+                    <!-- <li>Link to Merch</li> -->
+                    <!--TODO: add gofundme link <li>Donate Button (paypal? square? stripe?)</li>-->
+                    <section id="basic">
+                        <p></p>
+                        <!-- Paypal Button -->
+                        <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+                            <input type="hidden" name="cmd" value="_s-xclick">
+                            <input type="hidden" name="hosted_button_id" value="Z84JHLFBBRPA4">
+                            <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+                            <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+                        </form>
+                    </section>
+                    <!--End Paypal Button-->
+
                     <!-- <div>Carousel</div> -->
                 </div>
-                <div class="half-width">
+                <div class="col-sm">
                     <h2>Future Projects</h2>
-                    <ul>
-                        <li>Snacks for Every Classroom</li>
-                        <!--TODO: create suggestion form with treasure box image<li>Suggestions</li>-->
-                    </ul>
+
+                    <p>Snacks for Every Classroom</p>
+                    <!--TODO: create suggestion form with treasure box image<li>Suggestions</li>-->
+
+                </div>
+            </div>
+            <div class="row"> </div>
+            <div class="row">
+                <div class="col-sm">
+                    <h2>Resources</h2>
+                    <p><a href="https://www.wrps.org/foodservice/Frequently%20Asked%20Questions%20about%20WRPS%20Student%20Meal%20Accounts%2018%2019.pdf">School Lunch Policy</a></p>
+
+                </div>
+                <div class="col-sm">
+                    <h2>Financials</h2>
+                    <p>Coming Soon</p>
                 </div>
             </div>
         </div>
-        <div class="half-width">
-            <!-- <div class="row"> -->
+        <!-- <div class="half-width">
+            
             <h2>Links</h2>
             <ul>
                 <li>Research link one</li>
                 <li>Research link two</li>
                 <li>Research link three</li>
             </ul>
-            <!-- </div> -->
+            
             <div class="half-width">Financials</div>
-        </div>
+        </div> -->
 
     </section>
 

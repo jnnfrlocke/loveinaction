@@ -35,6 +35,8 @@ h4 {
 #logo {
     margin: auto;
     display: block;
+    width: 200px;
+    height: auto;
 }
 
 .rightside {
